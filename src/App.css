@@ -32,3 +32,11 @@
     transform: rotate(360deg);
   }
 }
+
+.patient-info {
+  text-align: left;
+}
+
+.patient-info p {
+  font-size: 1.2em;
+}
