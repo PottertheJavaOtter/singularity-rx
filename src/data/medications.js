@@ -1,7 +1,8 @@
 const medications = [
   {
     key: 1,
-    medication: "Atorvastatin 20mg",
+    medication: "Atorvastatin",
+    dosage: "20mg",
     sig: "1 PO daily",
     qty: "30",
     days_supply: "30",
@@ -11,7 +12,8 @@ const medications = [
   },
   {
     key: 2,
-    medication: "Metoprolol succinate 25mg",
+    medication: "Metoprolol succinate",
+    dosage: "25mg",
     sig: "1 PO daily",
     qty: "30",
     days_supply: "30",
@@ -21,7 +23,8 @@ const medications = [
   },
   {
     key: 3,
-    medication: "Atorvastatin 20mg",
+    medication: "Atorvastatin",
+    dosage: "20mg",
     sig: "1 PO daily",
     qty: "30",
     days_supply: "30",
@@ -31,7 +34,8 @@ const medications = [
   },
   {
     key: 4,
-    medication: "Metoprolol succinate 25mg",
+    medication: "Metoprolol succinate",
+    dosage: "25mg",
     sig: "1 PO daily",
     qty: "30",
     days_supply: "30",
@@ -41,7 +45,8 @@ const medications = [
   },
   {
     key: 5,
-    medication: "Clopidogrel 75mg",
+    medication: "Clopidogrel",
+    dosage: "75mg",
     sig: "1 PO daily",
     qty: "30",
     days_supply: "30",
@@ -51,7 +56,8 @@ const medications = [
   },
   {
     key: 6,
-    medication: "Aspirin 325mg",
+    medication: "Aspirin",
+    dosage: "325mg",
     sig: "1 PO daily",
     qty: "30",
     days_supply: "30",
@@ -61,7 +67,8 @@ const medications = [
   },
   {
     key: 7,
-    medication: "Atorvastatin 20mg",
+    medication: "Atorvastatin",
+    dosage: "20mg",
     sig: "1 PO daily",
     qty: "30",
     days_supply: "30",
@@ -71,7 +78,8 @@ const medications = [
   },
   {
     key: 8,
-    medication: "Hydrochlorothiazide 25mg",
+    medication: "Hydrochlorothiazide",
+    dosage: "25mg",
     sig: "1 PO daily",
     qty: "30",
     days_supply: "30",
@@ -81,7 +89,8 @@ const medications = [
   },
   {
     key: 9,
-    medication: "Atorvastatin 10mg",
+    medication: "Atorvastatin",
+    dosage: "10mg",
     sig: "1 PO daily",
     qty: "30",
     days_supply: "30",
@@ -91,7 +100,8 @@ const medications = [
   },
   {
     key: 10,
-    medication: "Hydrochlorothiazide 25mg",
+    medication: "Hydrochlorothiazide",
+    dosage: "25mg",
     sig: "1 PO daily",
     qty: "30",
     days_supply: "30",
