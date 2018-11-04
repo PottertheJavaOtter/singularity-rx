@@ -6,7 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Router page="login" />
+        <Router page="dashboard" />
       </div>
     );
   }
