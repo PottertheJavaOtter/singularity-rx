@@ -70,7 +70,7 @@ class PatientPage extends Component {
             <br />
           </p>
         </Row>
-        <h2>Patient</h2>
+        <h2>Medications List</h2>
         <Table dataSource={meds} columns={columns} />
       </div>
     );

@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Input, Button } from "antd";
-import logo from "../logo.svg";
+import logo from "../logo.png";
 import "./LoginPage.css";
 
 class LoginPage extends Component {
