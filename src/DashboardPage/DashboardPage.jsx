@@ -1,7 +1,9 @@
 import React, { Component } from "react";
-import { Layout, Menu, Breadcrumb, Icon } from "antd";
-
+import { Layout, Menu, Breadcrumb, Icon, Input } from "antd";
+import PatientPage from "../PatientPage";
+import "./DashboardPage.css";
 const { Header, Footer, Sider, Content } = Layout;
+const Search = Input.Search;
 
 class DashboardPage extends Component {
   render() {
@@ -9,46 +11,44 @@ class DashboardPage extends Component {
       <div className="DashboardPage">
         <div>
           <Layout>
-            <Header style={{ position: "fixed", zIndex: 1, width: "100%" }}>
-              <div className="DashboardPage__logo" />
-              <Menu
-                theme="dark"
-                mode="horizontal"
-                defaultSelectedKeys={["2"]}
-                style={{ lineHeight: "64px" }}
-              >
-                <Menu.Item key="1">nav 1</Menu.Item>
-                <Menu.Item key="2">nav 2</Menu.Item>
-                <Menu.Item key="3">nav 3</Menu.Item>
-              </Menu>
+            <Header>
+              <Search
+                placeholder="Search Patients"
+                onSearch={value => console.log(value)}
+                style={{ width: 200 }}
+              />
             </Header>
             <Layout>
               <Sider>
-                <Menu theme="dark" mode="inline" defaultSelectedKeys={["1"]}>
+                <Menu theme="dark" mode="vertical" defaultSelectedKeys={["1"]}>
                   <Menu.Item key="1">
                     <Icon type="user" />
                     <span>Patients</span>
                   </Menu.Item>
                   <Menu.Item key="2">
-                    <Icon type="video-camera" />
-                    <span>nav 2</span>
+                    <Icon type="calendar" />
+                    <span>Schedule</span>
                   </Menu.Item>
                   <Menu.Item key="3">
-                    <Icon type="upload" />
-                    <span>nav 3</span>
+                    <Icon type="inbox" />
+                    <span>Messages</span>
+                  </Menu.Item>
+                  <Menu.Item key="3">
+                    <Icon type="file-text" />
+                    <span>Reports</span>
                   </Menu.Item>
                 </Menu>
-              </Sider>{" "}
-              <Content>
+              </Sider>
+              <Content className="DashboardPage__Content">
                 <Breadcrumb style={{ margin: "16px 0" }}>
                   <Breadcrumb.Item>Home</Breadcrumb.Item>
-                  <Breadcrumb.Item>List</Breadcrumb.Item>
-                  <Breadcrumb.Item>App</Breadcrumb.Item>
+                  <Breadcrumb.Item>Patients</Breadcrumb.Item>
+                  <Breadcrumb.Item>Max Bennet</Breadcrumb.Item>
                 </Breadcrumb>
                 <div
                   style={{ background: "#fff", padding: 24, minHeight: 280 }}
                 >
-                  Content
+                  <PatientPage />
                 </div>
               </Content>
             </Layout>

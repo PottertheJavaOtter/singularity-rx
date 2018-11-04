@@ -7,3 +7,7 @@
   height: 32px;
   margin: 16px;
 }
+
+.DashboardPage__Content {
+  padding: 0 24px;
+}

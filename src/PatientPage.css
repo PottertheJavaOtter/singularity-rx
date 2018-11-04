@@ -1,0 +1,12 @@
+.PatientPage {
+  font-size: 1.2em;
+  text-align: left;
+}
+
+.PatientPage__fields {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 16px;
+  width: 600px;
+}
