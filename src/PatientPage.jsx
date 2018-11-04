@@ -10,6 +10,10 @@ const columns = [
     dataIndex: "medication"
   },
   {
+    title: "Dosage",
+    dataIndex: "dosage"
+  },
+  {
     title: "Sig",
     dataIndex: "sig"
   },
